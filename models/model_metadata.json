@@ -1,0 +1,29 @@
+{
+  "feature_columns": [
+    "pickup_zone",
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos",
+    "is_weekend",
+    "demand_lag_1h",
+    "demand_lag_2h",
+    "demand_lag_24h",
+    "demand_rolling_3h",
+    "demand_rolling_24h",
+    "avg_distance"
+  ],
+  "wait_time_metrics": {
+    "mae": 0.23106861096999487,
+    "rmse": 0.6717627854056559,
+    "r2": 0.9949348950069752,
+    "mape": 0.7787720637009998
+  },
+  "demand_metrics": {
+    "mae": 0.017244070768356323,
+    "rmse": 0.05094995580761732,
+    "r2": 0.9956512451171875
+  },
+  "training_date": "2026-01-23 19:06:27",
+  "num_zones": 50
+}
